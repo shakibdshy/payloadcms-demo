@@ -5,7 +5,6 @@
   "main": "dist/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts node",
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc",
